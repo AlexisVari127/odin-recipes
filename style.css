@@ -1,0 +1,42 @@
+.recipes{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipes > a{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 144, 24, 0.3);;
+    width:fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+img:not([attr="mainImage"]){
+    width: 100px;
+}
+
+ol{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+ol > img {
+    margin-bottom: 30px;
+}
+
+ol > li {
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-left: 20px;
+}
